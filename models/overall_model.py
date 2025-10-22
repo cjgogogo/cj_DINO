@@ -131,8 +131,7 @@ class DefocusReconModel(nn.Module):
         focus_mask = (edge_strength >= threshold).float()  # 二值掩码
         return focus_mask
 
-
-# 测试模型前向传播
+# 测试模型前向传播dd
 if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = DefocusReconModel().to(device)
