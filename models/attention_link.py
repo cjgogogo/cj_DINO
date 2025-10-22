@@ -2,7 +2,7 @@ import torch
 import torch.nn.functional as F
 from torch.nn import MultiheadAttention
 
-
+#ddd
 class DepthConsistentAttention(torch.nn.Module):
     """深度一致性注意力联动模块"""
 
